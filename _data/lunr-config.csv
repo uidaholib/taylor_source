@@ -1,0 +1,5 @@
+field,index,display
+title,true,true
+date,true,true
+description,true,false
+subjects,true,true

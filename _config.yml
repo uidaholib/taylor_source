@@ -1,0 +1,23 @@
+# Jekyll Digital Collection Generator
+
+# url variables
+# library's domain (only changed if using github pages)
+url: https://www.lib.uidaho.edu
+# location on the website, normally in /digital
+# e.g. /digital/hjccc
+baseurl: /digital/moscon
+# url to the shared assets folder on Digital
+digital-assets: https://www.lib.uidaho.edu/digital/assets
+# Collection's objects dir location
+objects: https://www.lib.uidaho.edu/digital/objects/moscon
+
+# metadata filename in _data
+metadata: moscon
+
+# page gen settings https://github.com/avillafiorita/jekyll-datapage_gen
+page_gen:
+  - data: 'moscon'
+    template: 'items'
+    name: 'object-id'
+    dir: 'items'
+    extension: 'html'   

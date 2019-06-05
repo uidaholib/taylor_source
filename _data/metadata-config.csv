@@ -1,0 +1,11 @@
+field,display-name,dc-map,browse-link
+title,Title,DC.title
+date,Date,DCTERMS.created
+description,Description,DC.description
+creator,Creator,
+subject,Subjects,
+location,Location,
+identifier,Identifier,
+format_original,Original Format,
+type,Type,DC.type
+format,Digital Format,
