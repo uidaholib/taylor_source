@@ -5,18 +5,18 @@
 url: https://www.lib.uidaho.edu
 # location on the website, normally in /digital
 # e.g. /digital/hjccc
-baseurl: /digital/moscon
+baseurl: /digital/taylor
 # url to the shared assets folder on Digital
 digital-assets: https://www.lib.uidaho.edu/digital/assets
 # Collection's objects dir location
-objects: https://www.lib.uidaho.edu/digital/objects/moscon
+objects: https://www.lib.uidaho.edu/digital/objects/taylor
 
 # metadata filename in _data
-metadata: moscon
+metadata: taylor
 
 # page gen settings https://github.com/avillafiorita/jekyll-datapage_gen
 page_gen:
-  - data: 'moscon'
+  - data: 'taylor'
     template: 'items'
     name: 'object-id'
     dir: 'items'
