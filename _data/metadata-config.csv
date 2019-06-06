@@ -1,11 +1,16 @@
 field,display-name,dc-map,browse-link
 title,Title,DC.title
 date,Date,DCTERMS.created
-description,Description,DC.description
 creator,Creator,
+description,Description,DC.description
+summary,Summary,
 subject,Subjects,
+features,Featured subjects
 location,Location,
 identifier,Identifier,
-format_original,Original Format,
+source,Source,
+publisher,Publisher,
+contributing_institution,Contributing Institution,
 type,Type,DC.type
 format,Digital Format,
+metadata_cataloger,Cataloger,
