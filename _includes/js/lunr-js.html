@@ -39,7 +39,7 @@ function lunr_search () {
       })
     });*/
   resultdiv.empty();
-  resultdiv.prepend('<p class="">' + result.length + ' Result(s) found</p>');
+  resultdiv.prepend('<tr><td><h4 class="mt-3">' + result.length + ' Result(s) found</h4></td></tr>');
   for (var item in result) {
     var ref = result[item].ref;
     var searchitem =
