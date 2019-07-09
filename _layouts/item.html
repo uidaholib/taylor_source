@@ -11,7 +11,7 @@ layout: default
     </ul>
 
     <div class="row">
-        <div class="col-md-6" id="lightgallery" >
+        <div class="col-md-4" id="lightgallery" >
             <div class="card mb-2">
                 {% if page.format contains 'image' %}
                 <div class="p-3">
@@ -46,35 +46,12 @@ layout: default
                 </div>
                 {%- endif -%}
                 <div class="text-center my-2">
-                    {% if page.youtube-id %}
-                    <button type="button" class="btn btn-outline-clearwater" data-toggle="modal" data-target="#videoModal">View Interview</button>
-                    <!-- Modal -->
-                    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="videoModalLabel">{{ page.title }}</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.youtube-id }}?rel=0" allowfullscreen></iframe>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-
-                    {%- else -%}
                     <a href="{{ site.objects }}/{{ page.filename }}" target="_blank" class="btn btn-outline-clearwater" title="Object download">Download {{ page.format | split: '/' | last | upcase }}</a>
-                    {%- endif -%}
                 </div>
             </div>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-8">
             <div id="item-metadata" class="metadata">
                 <dl>
                     {% for f in fields %}{% if f.display-name and page[f.field] %}
@@ -93,23 +70,29 @@ layout: default
             </div>
         </div>
 
+        <div class="col-md-12 p-4">
+            <p><strong>Summary:</strong> {{ page.summary }}</p>
+        </div>
+
     </div>
 
     <div class="row">
         <div class="col-md-3">
             <div class="card mb-2">
-                <div class="card-header">Related Items</div>
+                <div class="card-header">Technical</div>
                 <div class="card-body">
-                    {% assign facets = page.feature_subjects | split: ";" %}
-                    <p>
-                    {% for f in facets %}
-                        <a class="btn btn-sm btn-secondary m-1" href="{{ f | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}">{{ f }}</a> 
-                    {% endfor %}
-                    </p>
+                    <dl>
+                        <dt>Digital Format:</dt> 
+                        <dd>{{ page.format }}</dd>
+                        <dt>Identifier:</dt> 
+                        <dd>{{ page.identifier }}</dd>
+                        <dt>Metadata Cataloger:</dt>
+                        <dd>{{ page.metadata_cataloger }}</dd>
+                    </dl>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-5">
             <div class="card mb-2">
                 <div class="card-header">Source</div>
                 <div class="card-body">
@@ -122,11 +105,13 @@ layout: default
                 </div>
             </div>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-4">
             <div class="card mb-2">
                 <div class="card-header">Rights</div>
                 <div class="card-body">
                     <dl>
+                        <dt>Contributing Institution:</dt> 
+                        <dd>{{ page.contributing_institution }}</dd>
                         {% if page.rights %}
                         <dd>{{ page.rights }}</dd>{% endif %}
                         {% if page.standardized_rights %}<dt>Standardized Rights:</dt>
