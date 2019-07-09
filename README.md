@@ -11,3 +11,8 @@ Context notes:
 - Taylor Wilderness Research Station, https://www.uidaho.edu/cnr/taylor-wilderness-research-station
 - Frank Church-River of No Return Wilderness Area, https://www.fs.usda.gov/detail/scnf/specialplaces/?cid=stelprdb5360033
 - https://en.wikipedia.org/wiki/Frank_Church%E2%80%93River_of_No_Return_Wilderness
+
+Project notes:
+
+- `_includes/js/map-js.html` is heavily modified
+- `_layouts/item.html` is heavily modified
