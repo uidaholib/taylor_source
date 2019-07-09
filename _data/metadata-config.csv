@@ -2,13 +2,12 @@ field,display-name,dc-map,browse-link
 title,Title,DC.title
 date,Date,DCTERMS.created
 creator,Creator,
-description,Description,DC.description
+featured_subjects,Featured subjects
 summary,Summary,
-subject,Subjects,
-features,Featured subjects
 location,Location,
+description,Description,DC.description
+subject,Subjects,
 identifier,Identifier,
-source,Source,
 publisher,Publisher,
 contributing_institution,Contributing Institution,
 type,Type,DC.type

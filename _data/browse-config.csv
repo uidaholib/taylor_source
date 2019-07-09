@@ -1,4 +1,3 @@
 field,display-name-or-btn
-date,
-description,
-subjects,btn 
+summary,
+featured_subjects,Subjects
