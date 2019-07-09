@@ -9,9 +9,9 @@ keywords: "Wilderness areas; Idaho; Frank Church-River of No Return Wilderness" 
 author: evanwill # You! Add your github username 
 
 # Home page
-home-banner-image-link: https://www.uidaho.edu/-/media/UIdaho-Responsive/Images/cnr/Image/features-research/facilities/taylor/TaylorRanch_0144PRINT.jpg # leave blank unless no cdm number to generate item
+home-banner-image-link: https://www.lib.uidaho.edu/digital/objects/taylor/TaylorRanch_0144PRINT.jpg # leave blank unless no cdm number to generate item
 # img tile for accessibility
-home-banner-image-title: Taylor Wilderness Research Station University of Idaho
+home-banner-image-title: Taylor Wilderness Research Station, University of Idaho
 home-title-y-padding: 4em # the margin from the top your title portion will appear
 carousel-height: # in px, but don't include the "px"; default is 300.
 featured-subjects: #separate semi-colon(';') - if left blank, will be automatically generated to create top 5 subjects
