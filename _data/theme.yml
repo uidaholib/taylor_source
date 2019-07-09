@@ -3,15 +3,15 @@
 # Site settings
 # header and head metadata
 title: Taylor Ranch Log Book Collection
-tagline: Observations and Musings
-description: "Two decades of Science Fiction fandom on the Palouse." 
-keywords: "Idaho; SciFi; FanCon" # describing the whole collection -- add to the two provided
+tagline: Living and working at the Taylor Wilderness Research Station
+description: "The nine log books in this collection detail daily events from 1997 to 2010 recounted by those living and working at the Taylor Wilderness Research Station. In addition to describing the routine research and maintenance task, the logs also provide wildlife sightings and firsthand accounts of harrowing events, such as the dramatic forest fire and evacuation of the year 2000." 
+keywords: "Wilderness areas; Idaho; Frank Church-River of No Return Wilderness" # describing the whole collection -- add to the two provided
 author: evanwill # You! Add your github username 
 
 # Home page
-home-banner-image-link:  https://www.lib.uidaho.edu/digital/objects/moscon/moscon_cover2.jpg # leave blank unless no cdm number to generate item
+home-banner-image-link: https://www.uidaho.edu/-/media/UIdaho-Responsive/Images/cnr/Image/features-research/facilities/taylor/TaylorRanch_0144PRINT.jpg # leave blank unless no cdm number to generate item
 # img tile for accessibility
-home-banner-image-title: Cover image from MosCon 1 
+home-banner-image-title: Taylor Wilderness Research Station University of Idaho
 home-title-y-padding: 4em # the margin from the top your title portion will appear
 carousel-height: # in px, but don't include the "px"; default is 300.
 featured-subjects: #separate semi-colon(';') - if left blank, will be automatically generated to create top 5 subjects
@@ -31,12 +31,12 @@ browse-buttons: true # true / false, adds previous/next arrows to items, but dou
 # see _data/map-config.csv for field display options
 latitude: 45.1019 #to determine center of map
 longitude: -114.8517 #to determine center of map
-zoom-level: 6 # zoom level for map 
+zoom-level: 10 # zoom level for map 
 
 # Subject page
-subjects-off: false # true / false, turns off subject generation to lower dev build time (then page doesn't work!)
+subjects-off: true # true / false, turns off subject generation to lower dev build time (then page doesn't work!)
 subject-min: 1 # min size for subject cloud, too many terms = slow load time!
-stopwords: boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
+stopwords: # set of subjects separated by ;, e.g. boxers;boxing
 
 # Timeline
 year-navigation: #"1900;1905;1910;1915;1920" # set years to appear in dropdown nav
