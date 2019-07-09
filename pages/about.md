@@ -13,10 +13,21 @@ featured-image: https://www.lib.uidaho.edu/digital/objects/taylor/TaylorRanch_01
     <img class="figure-img img-fluid" src="{{ site.objects }}/TaylorRanch_0144PRINT.jpg" alt="Taylor Wilderness Research Station, University of Idaho">
 </figure>
 
-# About Taylor Ranch Log Book Collection
+# About Taylor Ranch
 
-The nine log books in this collection detail daily events from 1997 to 2010 recounted by those living and working at the Taylor Wilderness Research Station. 
-In addition to describing the routine research and maintenance task, the logs also provide wildlife sightings and firsthand accounts of harrowing events, such as the dramatic forest fire and evacuation of the year 2000.
+The Taylor Wilderness Research Station is a unique research facility set in the Frank Church River of No Return Wilderness in central Idaho and provides an array of research and educational opportunities in watersheds, wildlife, vegetation, weather, climate, and history. 
+Taylor Ranch is surrounded by 2.3 million acres of wilderness, and the remote location allows for the study of areas that have had minimal exposure to human impact. 
+The area was first homesteaded by “Cougar” Dave Lewis, but served as a home to the Western Shoshone for centuries. 
+The University of Idaho has owned and operated the Taylor Wilderness Research Station since 1970.
+
+Researchers at Taylor Ranch engage in a variety of activities, such as recording climate and ecological data, tracking wildlife populations (including tagging and releasing herd animals and large predators), monitoring vegetation, examining the impact of forest fires, and researching the human-environment interactions of the area. The research facility also hosts interns, undergraduate researchers, and educational workshops for high-school to graduate level students. 
+
+## The Collection
+
+The Taylor Ranch Log Book Collection was donated to the University of Idaho Library in the Fall of 2010. 
+The nine volumes donated detail daily events from 1997 to 2010 recounted by those living and working at the Taylor Wilderness Research Station, with a large majority of the entries being written by Holly and Jim Akenson, who lived full time at Taylor Ranch from 1985 to 2010. 
+The logs provide information about the routine research and maintenance, as well as wildlife sightings and firsthand accounts of harrowing events, such as the dramatic 2000 forest fire and evacuation. 
+The accounts not only serve as a primary source of wilderness information, they also offer personal insight into how the people of the Taylor Wilderness Research Station interacted with the wildlife and coped with the daily struggles and unexpected events that came with living at the facility.
 
 </div>
 <div class="col-md-4">
