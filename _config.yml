@@ -1,5 +1,8 @@
 # Jekyll Digital Collection Generator
 
+# Note: use environment variable on build command to include analytics
+# JEKYLL_ENV=production jekyll build
+
 # url variables
 # library's domain (only changed if using github pages)
 url: https://www.lib.uidaho.edu
@@ -21,3 +24,5 @@ page_gen:
     name: 'object-id'
     dir: 'items'
     extension: 'html'   
+
+exclude: [work, 'Rakefile']
