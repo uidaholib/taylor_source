@@ -36,7 +36,7 @@ The accounts not only serve as a primary source of wilderness information, they 
             <h4 class="card-title">Resources</h4>
             <p><a href="https://www.uidaho.edu/cnr/taylor-wilderness-research-station" class="btn btn-clearwater" rel="noopener" target="_blank">Taylor Wilderness Research Station</a></p>
             <p><a href="https://www.fs.usda.gov/detail/scnf/specialplaces/?cid=stelprdb5360033" class="btn btn-clearwater" rel="noopener" target="_blank">Frank Church - River of No Return Wilderness Area</a></p>
-            <p><a href="https://uidaho.maps.arcgis.com/home/item.html?id=50033194e7114a8cba558e341b80fe1b" class="btn btn-clearwater" rel="noopener" target="_blank">Aerial Imagery (2015, 30-cm)</a> [UI login required]</p>
+            <p><a href="https://uidaho.maps.arcgis.com/home/item.html?id=30c4607c54544c028ea421870c939642" class="btn btn-clearwater" rel="noopener" target="_blank">Aerial Imagery (2015, 30-cm)</a> [UI login required]</p>
         </div>
     </div>
 </div>
